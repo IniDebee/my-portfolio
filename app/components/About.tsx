@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import AboutImg from "../../public/images/about.webp";
 
 export default function About() {
@@ -35,11 +35,11 @@ export default function About() {
                   software development life cycle.
                 </p>
               </div>
-              <Link href="mailto:inioluwadeborah2@gmail.com">
+              <a href="mailto:inioluwadeborah2@gmail.com">
                 <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                   Contact me
                 </button>
-              </Link>
+              </a>
               {/* <button className="btn btn-md bg-accent hover:bg-accent-hover transition-all">
                 Contact me
               </button> */}

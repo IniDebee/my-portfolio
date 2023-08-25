@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from "react";
 import { contact } from "../data";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -57,11 +57,11 @@ export default function Contact() {
                 className="textarea"
                 placeholder="Your message"
               ></textarea>
-              <Link href="mailto:inioluwadeborah2@gmail.com">
+              <a href="mailto:inioluwadeborah2@gmail.com">
                 <button className="btn btn-lg bg-accent hover:bg-accent-hover mt-6">
                   Send message
                 </button>
-              </Link>
+              </a>
             </form>
           </div>
         </div>

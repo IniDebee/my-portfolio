@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import HeroImg from "../../public/images/banner2.svg";
 
 export default function Hero() {
@@ -26,16 +26,16 @@ export default function Hero() {
                 life.
               </p>
               <div className="flex">
-                <Link href="mailto:inioluwadeborah2@gmail.com">
+                <a href="mailto:inioluwadeborah2@gmail.com">
                   <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all mr-10">
                     Work with me
                   </button>
-                </Link>
-                <Link href="/resume/inioluwacv.docx" download>
+                </a>
+                <a href="/resume/inioluwacv.docx" download>
                   <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                     Download CV
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
             {/* right side */}
