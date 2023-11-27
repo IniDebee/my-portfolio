@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
-// import Link from "next/link";
 import HeroImg from "../../public/images/banner2.svg";
+// import Link from "next/link";
 
 export default function Hero() {
   return (
     <>
       <section
         id="home"
-        className="lg:h-[90vh] flex items-center bg-primary lg:bg-cover lg:bg-no-repeat py-32 lg:py-0 overflow-hidden"
+        className="lg:h-[90vh] flex items-center bg-primary lg:bg-cover lg:bg-no-repeat py-24 lg:py-0 overflow-hidden"
       >
         <div className="container mx-auto h-full">
           <div className="flex items-center h-full pt-8">

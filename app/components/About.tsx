@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 // import Link from "next/link";
-import AboutImg from "../../public/images/about.webp";
+// import AboutImg from "../../public/images/about.webp";
+import AboutImg from "../../public/images/about.jpg";
 
 export default function About() {
   return (
