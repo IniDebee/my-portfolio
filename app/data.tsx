@@ -51,9 +51,9 @@ import SkillImg8 from "../public/images/skills/figma.png";
 // import SkillImg12 from "../public/images/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from "../public/images/testimonials/testimonial-1.webp";
-import TestiImage2 from "../public/images/testimonials/testimonial-2.webp";
-import TestiImage3 from "../public/images/testimonials/testimonial-3.webp";
+import TestiImage1 from "../public/images/testimonials/testimonial-1.jpg";
+import TestiImage2 from "../public/images/testimonials/testimonial-2.jpg";
+// import TestiImage3 from "../public/images/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
@@ -270,24 +270,24 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+      "An exceptionally hardworking and trustworthy lady, she consistently demonstrates a keen willingness to learn and adapt to change when necessary. Few individuals possess her level of determination to set and achieve goals—a true testament to her proactive and goal-oriented approach.",
+    authorName: "Jeremiah Patrick",
+    authorPosition: "Technical Lead, Tridehq.com",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+      "I have worked alongside Inioluwa. It was an inspiring journey. Inioluwa’s proficiency in front-end development is truly exceptional. Her keen eye for detail and dedication to delivering high-quality, user-centric designs make her an invaluable asset to any team. I highly recommend Inioluwa for her outstanding skills and unwavering commitment to excellence in frontend development.",
+    authorName: "Oluwatoyin Salome Awelewa",
+    authorPosition: "DevOps Engineer",
   },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
-  },
+  // {
+  //   authorImg: TestiImage3,
+  //   authorText:
+  //     "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
+  //   authorName: "Olivia Doe",
+  //   authorPosition: "Head of Design, Google",
+  // },
 ];
 
 // contact

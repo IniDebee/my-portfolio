@@ -39,7 +39,7 @@ export default function Footer() {
 
             {/* copyright */}
             <p className="text-center">
-              &copy; 2023 Inioluwa Deborah. All rights reserved.
+              &copy; 2024 Inioluwa Deborah. All rights reserved.
             </p>
             {/* <p>&copy; 2023 Inioluwa Deborah. All rights reserved.</p> */}
           </div>

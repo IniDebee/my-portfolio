@@ -39,7 +39,7 @@ export default function Hero() {
               </div>
             </div>
             {/* right side */}
-            <div className="hidden lg:flex flex-1 justify-end items-end h-full ">
+            <div className="hidden lg:flex flex-1 justify-end items-end h-full">
               <Image src={HeroImg} alt="" />
             </div>
           </div>

@@ -15,7 +15,7 @@ export default function TestimonialSliders() {
           clickable: true,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 6500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
@@ -26,12 +26,12 @@ export default function TestimonialSliders() {
           return (
             <>
               <SwiperSlide key={index} className="">
-                <div className="flex flex-col md:flex-row gap-12 md:gap-16 lg:gap-32">
-                  <div className="w-48 h-48 lg:w-[328px] lg:h-[328px]">
+                <div className="flex flex-col lg:flex-row gap-12 md:gap-16 lg:gap-32">
+                  <div className="w-48 h-48 md:w-56 md:h-56 lg:w-[328px] lg:h-[328px]">
                     <Image className="rounded-2xl" src={authorImg} alt="" />
                   </div>
                   <div className="flex flex-col max-w-3xl">
-                    <h5 className="font-body text-md md:text-xl mb-8 italic font-normal md:w-5/6">
+                    <h5 className="font-body text-md md:text-xl mb-8 italic font-normal md:w-full">
                       {authorText}
                     </h5>
                     <div>
