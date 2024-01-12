@@ -53,7 +53,7 @@ import SkillImg8 from "../public/images/skills/figma.png";
 // testimonial images
 import TestiImage1 from "../public/images/testimonials/testimonial-1.jpg";
 import TestiImage2 from "../public/images/testimonials/testimonial-2.jpg";
-// import TestiImage3 from "../public/images/testimonials/testimonial-3.webp";
+import TestiImage3 from "../public/images/testimonials/testimonial-3.jpg";
 
 // navigation
 export const navigation = [
@@ -281,13 +281,13 @@ export const testimonials = [
     authorName: "Oluwatoyin Salome Awelewa",
     authorPosition: "DevOps Engineer",
   },
-  // {
-  //   authorImg: TestiImage3,
-  //   authorText:
-  //     "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-  //   authorName: "Olivia Doe",
-  //   authorPosition: "Head of Design, Google",
-  // },
+  {
+    authorImg: TestiImage3,
+    authorText:
+      "A developer that demonstrates a strong understanding of core front-end technologies (HTML, CSS, JavaScript) and creates clean, efficient, and well-commented code. She excels in utilizing modern frameworks and libraries (React, Next.js) to deliver dynamic and responsive user interfaces. She also shows proficiency in creating cross-browser compatible and mobile-responsive designs, ensuring a seamless user experience across all platforms.",
+    authorName: "David Igiri",
+    authorPosition: "Senior Software Developer, Digicomme Solutions",
+  },
 ];
 
 // contact

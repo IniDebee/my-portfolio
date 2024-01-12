@@ -43,7 +43,7 @@ export default function Contact() {
               })}
             </div>
             {/* form */}
-            <form className="space-y-8 w-full max-w-[780px]">
+            <form className="space-y-8 w-full max-w-[780px]" id="contact-form">
               <div className="flex gap-8">
                 <input type="text" className="input" placeholder="Your name" />
                 <input
