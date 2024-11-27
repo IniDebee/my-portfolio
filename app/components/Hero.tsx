@@ -31,7 +31,7 @@ export default function Hero() {
                     Work with me
                   </button>
                 </a>
-                <a href="/resume/inioluwacv.docx" download>
+                <a href="/resume/Inioluwa.Dev CV.docx" download>
                   <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                     Download CV
                   </button>

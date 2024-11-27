@@ -25,7 +25,7 @@ import BehanceBrandIcon from "../public/images/brands/behance.png";
 import DribbbleBrandIcon from "../public/images/brands/dribbble.png";
 
 // projects images
-import Project1 from "../public/images/projects/blog-app.jpg";
+import Project1 from "../public/images/projects/enop-concept.png";
 import Project2 from "../public/images/projects/dht-website.jpg";
 import Project3 from "../public/images/projects/titiekundayo.jpg";
 import Project4 from "../public/images/projects/calculator.jpg";
@@ -131,10 +131,17 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "Full Stack Blog App",
+    name: "Enop Concept",
     category: "Web Development",
-    href: "https://inidebee-fullstackblogapp.vercel.app/",
+    href: "https://enopconcept.com/",
   },
+  // {
+  //   id: "1",
+  //   image: Project1,
+  //   name: "Full Stack Blog App",
+  //   category: "Web Development",
+  //   href: "https://inidebee-fullstackblogapp.vercel.app/",
+  // },
   {
     id: "2",
     image: Project2,
